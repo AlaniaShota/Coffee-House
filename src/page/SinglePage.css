@@ -1,0 +1,100 @@
+.coffee-single-page__card {
+  position: relative;
+  top: 0px;
+}
+
+.coffee-single-page__content {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.coffee-single-page__image {
+  width: 498px;
+  height: 355px;
+
+  object-fit: contain;
+}
+
+.image {
+  padding-left: 67px;
+}
+
+.coffee-single-page__about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 638px;
+  padding-bottom: 15px;
+}
+
+.coffee-single-page__span {
+  color: #000 !important;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 5px;
+}
+
+.coffee-single-page__name {
+  color: #000 !important;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 0;
+}
+
+.coffee-single-page__line {
+  width: 120px;
+  border: 1px solid #000;
+}
+
+.coffee-single-page__country {
+  color: #000 !important;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 5px;
+}
+
+.coffee-single-page__description {
+  color: #000 !important;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 5px;
+}
+
+.coffee-single-page__price {
+  color: #000 !important;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 5px;
+}
+
+.back-to {
+  color: #000 !important;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  transform: scale(1, 1);
+  transition: all ease 3s;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  margin-left: 900px;
+}
+
+.back-to:hover {
+  transform: scale(1.1, 1.1);
+}

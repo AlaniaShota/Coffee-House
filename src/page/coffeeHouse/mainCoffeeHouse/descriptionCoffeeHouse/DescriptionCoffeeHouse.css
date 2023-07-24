@@ -1,0 +1,36 @@
+.coffee-house__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 620px;
+}
+.coffee-house-main__content {
+  text-align: center;
+}
+.coffee-house-main__title {
+  color: #000000 !important;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+hr {
+  width: 250px;
+}
+
+.coffee-house__about-us-paragraph {
+  text-align: center;
+  width: 599px;
+  height: 253px;
+  font-size: 15px;
+  font-style: normal;
+  line-height: normal;
+}
+.first-main__paragraph {
+  color: #000 !important;
+}
+
+.second-main__paragraph {
+  padding-top: 15px;
+  color: #000 !important;
+}

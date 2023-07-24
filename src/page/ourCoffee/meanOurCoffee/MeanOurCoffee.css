@@ -1,0 +1,45 @@
+.our-coffee__main {
+  display: flex;
+  justify-content: center;
+}
+
+.our-coffee-main__image {
+  width: 537px;
+  height: 358px;
+  object-fit: contain;
+}
+
+.our-coffee-main__about {
+  width: 346px;
+  height: 332px;
+}
+
+.our-coffee-main__title {
+  color: #000 !important;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.main-title-decoration-line {
+  width: 240px;
+  border: 1px solid #000;
+}
+
+.our-coffee-main__paragraph {
+  color: #000 !important;
+  padding-top: 15px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.main-decoration-line {
+  margin-top: 47px;
+  width: 240px;
+  border: 1px solid #000;
+}

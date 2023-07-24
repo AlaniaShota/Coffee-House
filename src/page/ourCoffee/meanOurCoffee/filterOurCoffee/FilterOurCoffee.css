@@ -1,0 +1,111 @@
+.our-coffee-card-content {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.filter-search-card {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 65%;
+}
+.input-search-card {
+  display: flex;
+}
+.button-search-card {
+  display: flex;
+}
+
+.search-text {
+  color: #000 !important;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.filter-input {
+  width: 195px;
+  height: 30px;
+  flex-shrink: 0;
+  text-align: center;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  margin: 5px 0 0 25px;
+  color: #000 !important;
+}
+
+.our-coffee-card__recommendation {
+  margin: 50px 0 0 410px;
+  display: grid;
+  grid-template-columns: 130px 130px 130px;
+  grid-template-rows: 195px 195px 195px;
+  column-gap: 150px;
+  row-gap: 150px;
+}
+
+.our-coffee-card__recommendation-content {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  width: 240px;
+  height: 290px;
+  border-radius: 8px;
+  background: #fff;
+
+  cursor: pointer;
+  transform: scale(1, 1);
+  transition: all ease 2s;
+}
+
+.our-coffee-card__recommendation-content:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.our-coffee-card__recommendation__image {
+  padding: 20px 27px;
+  margin: auto;
+  display: flex;
+  object-fit: cover;
+}
+.link {
+  text-decoration: none;
+}
+
+.our-coffee-card__recommendation__name {
+  color: #000 !important;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: auto;
+}
+
+.our-coffee-card__recommendation__country {
+  color: #000 !important;
+  padding-top: 15px;
+  padding-right: 26px;
+  text-align: right;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: auto;
+}
+
+.our-coffee-card__recommendation__price {
+  color: #000 !important;
+  padding-top: 15px;
+  padding-right: 26px;
+  text-align: right;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: auto;
+}

@@ -1,0 +1,19 @@
+.menu {
+  position: absolute;
+  top: 45px;
+  left: 106px;
+  list-style-type: none;
+  width: 29%;
+}
+.menu__list {
+  display: inline;
+  padding-right: 35px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header-text {
+  text-decoration: none;
+}
