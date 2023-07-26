@@ -11,8 +11,7 @@ import { Link } from "react-router-dom";
 
 const facebook = "https://www.facebook.com/profile.php?id=100006923223734";
 const instagram = "https://www.instagram.com/alania126/";
-const linkedin =
-  "https://www.linkedin.com/in/%E1%83%A8%E1%83%9D%E1%83%97%E1%83%90-%E1%83%90%E1%83%9A%E1%83%90%E1%83%9C%E1%83%98%E1%83%90-0a705820b/";
+const linkedin = "https://www.linkedin.com/in/shota-alania-0a705820b/";
 const github = "https://github.com/AlaniaShota";
 
 const Footer = () => {
